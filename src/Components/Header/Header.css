@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Head-Wrap{
+    color: whitesmoke;
+    height: 40px;
+    background-color: #144EA4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Head-list{
+    display: flex;
+}
