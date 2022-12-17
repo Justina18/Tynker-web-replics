@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-.Hero{
+.Hero-wrap{
     width: 100%;
 }
 .Hero-Header{
@@ -11,6 +11,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
     background: linear-gradient( #B70000, #B80505);
@@ -18,26 +19,24 @@
 .Hero-Body{
     background: url(https://www.tynker.com/image/homepage/winter-2022/hero-background.webp);
     display: flex;
+    
 }
 .Hero-Body-Text{
+    margin-top: 10px;
     color: white;
     font-size:large;
+    line-height: 25px;
+}
+.buy{
+    margin-top: 20px;
+    width: 100px;
+    color: white;
+    border-radius: 5px;
+    height: 34px;
+    background-color: #FF8D1A;
+    outline: none;
+    border: none;
 }
 .image1{
-    width: 950px;
+    background-size: 50% 80%;
 }
-@media screen and (min-width: 425px){
-.Hero{
-    padding-right: 15px;
-    padding-left: 15px;
-    text-align: left;
-}
-}
-@keyframes App-logo-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  } 

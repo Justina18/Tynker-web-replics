@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+.Body{
+    flex-wrap: wrap;
+}
 .image-1{
     width: 95%;
 
@@ -12,6 +15,7 @@
 .Body-Wrap{
     display: flex;
     justify-content: center;
+   
 }
 .Body-Text{
     margin-top: 40px;

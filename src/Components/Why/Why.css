@@ -1,0 +1,69 @@
+.Why{
+    background-color: #ECFCFE ;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; */
+}
+.Why-Cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 2rem;
+}
+h3{
+    color: #0096AA;
+    font-size: medium;
+    margin-left: 15px;
+}
+.p{
+    margin-left: 15px;
+    font-size: small;
+}
+.Trust{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+.Smart{
+    width: 191px;
+    height: 52px;
+    margin-bottom: 23px;
+}
+.Trust-images{
+    width: 126px;
+    height: 105px;
+}
+.Why-Text{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.Why1{
+    width: 240px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 4px 10px 20px 2px rgba(0,0,0,0.75);
+-webkit-box-shadow: 4px 10px 20px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 10px 20px 2px rgba(0,0,0,0.75);
+}

@@ -1,10 +1,31 @@
 .CardOne{
     display: flex;
-    
+
+}
+.CardOne-Text{
+    line-height: 24px;
 }
 .CardTwo{
     display: flex;
+    background-color: #EBFCFF;
+    line-height: 24px;
 }
 .CardThree{
+    background-color: #EBFCFF;
     display: flex;
+    line-height: 24px;
 }
+h1{
+    line-height: 25px;
+}
+button{    
+        margin-top: 20px;
+        width: 100px;
+        color: white;
+        border-radius: 5px;
+        height: 34px;
+        background-color: #FF8D1A;
+        outline: none;
+        border: none;
+    }
+

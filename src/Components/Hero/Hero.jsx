@@ -3,8 +3,8 @@ import './Hero.css'
 
 const Hero = () => {
   return (
-    <div>
-        <div className='Hero'>
+    <div className='Hero'>
+        <div className='Hero-wrap'>
             <div className='Hero-Header'>
                 <h2>Holiday Bonus! All Plans Include 2 FREE Coaching Classes ($120 Value)</h2>
             </div>
@@ -16,12 +16,12 @@ const Hero = () => {
                   Our new bundles include live expert coaching to <br/>
                    get your child off to a fast, confident start.</p>
                <div>
-                <button>BUY NOW</button>
+                <button className='buy'>BUY NOW</button>
                 <a>Get Started for Free</a>
                </div>
                 </div>
-                <div>
-                    <img src='/images/hero-graphic.webp' className='image1'/>
+                <div className='image1'>
+                    <img src='/images/hero-graphic.webp' />
                 </div>
             </div>
         </div>

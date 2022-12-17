@@ -1,0 +1,17 @@
+.Rated{
+    /* display: flex; */
+    flex-wrap: wrap;
+}
+.Rated-Header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.Rated-content{
+    display: flex;
+}
+.Rated1{
+    display: flex;
+}
