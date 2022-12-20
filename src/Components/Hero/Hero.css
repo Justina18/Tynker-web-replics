@@ -17,9 +17,10 @@
     background: linear-gradient( #B70000, #B80505);
 }
 .Hero-Body{
-    background: url(https://www.tynker.com/image/homepage/winter-2022/hero-background.webp);
+    background-image:url(https://www.tynker.com/image/waves/swoosh-lower-condensed-white-reversed.svg), url(https://www.tynker.com/image/homepage/winter-2022/hero-background.webp);
+    background-position: bottom ;
     display: flex;
-    
+    background-repeat: no-repeat;    
 }
 .Hero-Body-Text{
     margin-top: 10px;

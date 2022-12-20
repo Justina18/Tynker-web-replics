@@ -1,19 +1,23 @@
 .CardOne{
     display: flex;
-
+    margin: 30px;
 }
 .CardOne-Text{
     line-height: 24px;
 }
-.CardTwo{
+.CardTwo-wrap{
+    margin: 30px;
     display: flex;
-    background-color: #EBFCFF;
     line-height: 24px;
+}
+.CardTwo{
+    background-color: #EBFCFF;
 }
 .CardThree{
     background-color: #EBFCFF;
     display: flex;
     line-height: 24px;
+    margin: 30px;
 }
 h1{
     line-height: 25px;

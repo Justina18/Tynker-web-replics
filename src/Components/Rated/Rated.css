@@ -9,9 +9,39 @@
     flex-direction: column;
     flex-wrap: wrap;
 }
+p{
+    font-size: large;
+    font-weight: 500;
+}
+.Star{
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.Rated-img{
+    margin: 25px;
+}
+
 .Rated-content{
+
     display: flex;
 }
 .Rated1{
     display: flex;
+    line-height: 30px;
+    margin: 10px;
+}
+.Rated2{
+display: flex;
+line-height: 30px;
+margin: 10px;
+}
+.Rated3{
+    display: flex;
+    line-height: 30px;
+    margin: 10px;
+}
+.Rated-Texts{
+    margin-top: 80px;
 }

@@ -4,11 +4,11 @@ import Body from '../Body/Body'
 import Hero from '../Hero/Hero'
 import CardOne from '../Cards/CardOne'
 import CardTwo from '../Cards/CardTwo'
-import CardThree from '../Cards/CardThree'
 import Rated from '../Rated/Rated'
 import Why from '../Why/Why'
 import {ImGift} from 'react-icons/im'
 import Community from '../Community/Community'
+import Faq from '../FAQ/Faq'
 
 
 const Header = () => {
@@ -35,10 +35,10 @@ const Header = () => {
     <Body />
     <CardOne/>
     <CardTwo/>
-    <CardThree/>
     <Rated/>
     <Why/>
     <Community/>
+    {/* <Faq/> */}
     </div>
   )
 }
