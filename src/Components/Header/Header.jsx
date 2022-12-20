@@ -9,6 +9,8 @@ import Why from '../Why/Why'
 import {ImGift} from 'react-icons/im'
 import Community from '../Community/Community'
 import Faq from '../FAQ/Faq'
+import Test from '../Test/Test'
+import Footer from '../Footer/Footer'
 
 
 const Header = () => {
@@ -38,7 +40,9 @@ const Header = () => {
     <Rated/>
     <Why/>
     <Community/>
-    {/* <Faq/> */}
+    <Test/>
+    <Faq/>
+    <Footer/>
     </div>
   )
 }

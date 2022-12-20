@@ -1,0 +1,7 @@
+.footer{
+    background-color: #353E5C;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+}

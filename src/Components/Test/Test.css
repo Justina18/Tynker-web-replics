@@ -1,0 +1,8 @@
+.test-card {
+    background-image:
+      url(https://www.tynker.com/image/homepage/spring-2019/bg-shape-testimonials.svg);
+    background-position: 40%, bottom -12rem left 53%;
+    background-repeat: no-repeat;
+    background-size: auto, 140%, auto;
+    background-color: #F1FAFC;
+  }
